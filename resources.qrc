@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Test Surveys (1).csv</file>
+    </qresource>
+    <qresource prefix="/qml">
+        <file>qml/Charts.qml</file>
+        <file>qml/ControlPanel.qml</file>
+        <file>qml/main.qml</file>
+        <file>qml/MultyButton.qml</file>
+        <file>qml/ScopeView.qml</file>
+    </qresource>
+</RCC>
