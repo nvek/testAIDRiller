@@ -28,16 +28,14 @@ SOURCES += \
     src/csvreader.cpp \
     src/chart.cpp \
     src/chartview.cpp \
-    src/chartsmodel.cpp \
-    src/datasource.cpp
+    src/chartsmodel.cpp
 
 HEADERS += \
         src/mainwindow.h \
     src/csvreader.h \
     src/chart.h \
     src/chartview.h \
-    src/chartsmodel.h \
-    src/datasource.h
+    src/chartsmodel.h
 
 FORMS += \
         mainwindow.ui
@@ -46,13 +44,6 @@ FORMS += \
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
-
-DISTFILES += \
-    qml/Charts.qml \
-    qml/main.qml \
-    qml/ControlPanel.qml \
-    qml/MultyButton.qml \
-    qml/ScopeView.qml
 
 RESOURCES += \
     resources.qrc
